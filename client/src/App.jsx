@@ -8,10 +8,12 @@ import Contact from "./Pages/Contact";
 import Footer from "./components/Footer";
 import Portfolio from "./components/Portfolio";
 import Resume from "./Pages/Resume";
+import Darkmode from "./components/Darkmode";
 
 function App() {
   return (
-    <main className="flex flex-col max-w-7xl mx-auto dark:bg-zinc-900">
+    <main className="flex flex-col max-w-7xl mx-auto dark:bg-zinc-900 relative">
+      <Darkmode />
       <Navbar />
 
       <div className="grow">

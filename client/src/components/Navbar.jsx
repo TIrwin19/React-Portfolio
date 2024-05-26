@@ -1,6 +1,5 @@
 import { useState } from "react";
 import { NavLink, useLocation } from "react-router-dom";
-import { MoonIcon, SunIcon } from "@heroicons/react/24/outline";
 
 const navigation = [
   { name: "Home", href: "/" },
@@ -11,13 +10,13 @@ const navigation = [
 ];
 
 export default function Navbar() {
-  const [dark, setDark] = useState(false);
+  // const [dark, setDark] = useState(false);
   const location = useLocation();
 
-  const darkModeHandler = () => {
-    setDark(!dark);
-    document.body.classList.toggle("dark");
-  };
+  // const darkModeHandler = () => {
+  //   setDark(!dark);
+  //   document.body.classList.toggle("dark");
+  // };
 
   return (
     <div className="sm:px-6 lg:px-3">
@@ -41,7 +40,7 @@ export default function Navbar() {
             </div>
           </div>
         </div>
-        <div className="absolute  right-0 flex items-center pr-2 sm:static sm:inset-auto sm:mx-6 sm:pr-0">
+        {/* <div className="absolute  right-0 flex items-center pr-2 sm:static sm:inset-auto sm:mx-6 sm:pr-0">
           <button
             onClick={() => darkModeHandler()}
             type="button"
@@ -53,7 +52,7 @@ export default function Navbar() {
               <SunIcon className="h-6 w-6" aria-hidden="true" />
             )}
           </button>
-        </div>
+        </div> */}
       </div>
     </div>
   );
