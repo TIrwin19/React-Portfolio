@@ -1,4 +1,4 @@
-import { useState } from "react";
+// import { useState } from "react";
 import { NavLink, useLocation } from "react-router-dom";
 
 const navigation = [
@@ -10,13 +10,7 @@ const navigation = [
 ];
 
 export default function Navbar() {
-  // const [dark, setDark] = useState(false);
   const location = useLocation();
-
-  // const darkModeHandler = () => {
-  //   setDark(!dark);
-  //   document.body.classList.toggle("dark");
-  // };
 
   return (
     <div className="sm:px-6 lg:px-3">
@@ -40,19 +34,6 @@ export default function Navbar() {
             </div>
           </div>
         </div>
-        {/* <div className="absolute  right-0 flex items-center pr-2 sm:static sm:inset-auto sm:mx-6 sm:pr-0">
-          <button
-            onClick={() => darkModeHandler()}
-            type="button"
-            className=" rounded-full bg-zinc-900 dark:bg-gray-50 p-1 text-gray-400 dark:text-gray-700 hover:text-white drop-shadow hover:drop-shadow-md dark:hover:text-black focus:outline-none focus:ring-2 focus:ring-black dark:focus:ring-white transition ease-in-out hover:scale-105 "
-          >
-            {!dark ? (
-              <MoonIcon className="h-6 w-6" aria-hidden="true" />
-            ) : (
-              <SunIcon className="h-6 w-6" aria-hidden="true" />
-            )}
-          </button>
-        </div> */}
       </div>
     </div>
   );
