@@ -1,0 +1,51 @@
+//Credit: Naoya, https://codepen.io/nxworld/pen/OVMzaP, modified for my use
+.hero {
+  height: 87vh;
+  background: linear-gradient(
+        45deg,
+        rgba(215, 215, 215, 0.2),
+        rgba(184, 184, 184, 0.2),
+        rgba(137, 137, 137, 0.2),
+        rgba(97, 97, 97, 0.2),
+        rgba(44, 44, 44, 0.2)
+      )
+      0 0 / 1000% no-repeat,
+    url(../../assets/images/night_mountain.jpg) center center / cover no-repeat;
+  -webkit-animation: gradientAnimation 20s ease infinite;
+  animation: gradientAnimation 20s ease infinite;
+
+  @media (max-width: 768px) {
+    height: 82vh;
+  }
+}
+@-webkit-keyframes gradientAnimation {
+  0% {
+    background-position: 0% 30%, 0 0;
+  }
+  50% {
+    background-position: 100% 70%, 0 0;
+  }
+  100% {
+    background-position: 0% 30%, 0 0;
+  }
+}
+@keyframes gradientAnimation {
+  0% {
+    background-position: 0% 30%, 0 0;
+  }
+  50% {
+    background-position: 100% 70%, 0 0;
+  }
+  100% {
+    background-position: 0% 30%, 0 0;
+  }
+}
+.title-margin {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+  white-space: nowrap;
+}

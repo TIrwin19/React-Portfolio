@@ -1,0 +1,64 @@
+// Credit: alphardex, https://3dtransforms.desandro.com/card-flip, modified for my use
+.scene {
+  // width: 1000px;
+  display: flex;
+  justify-content: space-between;
+  perspective: 800px;
+
+  .card {
+    position: relative;
+    width: 100%;
+    height: 20rem;
+    color: white;
+    // cursor: pointer;
+    transition: 0.75s ease-in-out;
+    transform-style: preserve-3d;
+
+    @media (max-width: 1024px) {
+      height: 15rem;
+    }
+
+    @media (max-width: 767px) {
+      height: 10rem;
+    }
+
+    &:hover {
+      transform: rotatex(0.5turn);
+    }
+
+    .card__face {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      backface-visibility: hidden;
+      transition: 0.75s ease-in-out;
+      -webkit-box-reflect: below 0
+        linear-gradient(transparent, transparent, rgba(0, 0, 0, 0.1));
+
+      .project-img {
+        width: 37rem;
+        height: 20rem;
+        object-fit: cover;
+        object-position: top;
+
+        @media (max-width: 1024px) {
+          height: 15rem;
+        }
+
+        @media (max-width: 767px) {
+          height: 10rem;
+        }
+      }
+
+      .img-left {
+        object-position: top left;
+      }
+
+      &--back {
+        transform: rotatex(0.5turn);
+      }
+    }
+  }
+}
