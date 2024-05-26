@@ -12,7 +12,7 @@ import Darkmode from "./components/Darkmode";
 
 function App() {
   return (
-    <main className="flex flex-col max-w-7xl mx-auto dark:bg-zinc-900 relative">
+    <main className="flex flex-col max-w-7xl mx-auto relative overflow-auto">
       <Darkmode />
       <Navbar />
 
