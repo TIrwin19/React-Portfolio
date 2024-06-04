@@ -47,10 +47,6 @@ You can also check out the LICENSE in the repo.
 
 Check out the [Contributor Covenant](https://www.contributor-covenant.org/version/2/1/code_of_conduct/code_of_conduct.md)
 
-## Tests
-
-N/A
-
 ## Questions
 
 If you have any questions check out my [Github](https://github.com/TIrwin19).
