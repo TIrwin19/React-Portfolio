@@ -7,7 +7,7 @@ export default function Resume() {
       <Scrollby />
       <a
         className=" w-fit px-2.5 py-0.5 rounded-full border dark:text-zinc-900 text-gray-50 dark:border-gray-200 border-zinc-700 drop-shadow hover:drop-shadow-md transition ease-in-out hover:scale-105 dark:bg-gray-50 bg-zinc-900"
-        href="https://docs.google.com/document/d/1cY2BbcMM_QOeqPk5H-gbMcYvcViMIWPXsLA-wZ5cQcs/edit?usp=sharing"
+        href="https://drive.google.com/file/d/1Q4plzlAlxf9WZTaGmbxBs0SydngSlrb4/view?usp=sharing"
         download
       >
         Download Resume
