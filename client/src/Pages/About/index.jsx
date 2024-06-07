@@ -1,6 +1,7 @@
 import { useState } from "react";
-import portrate from "../../assets/images/IMG_2941.jpg";
+// import portrate from "../../assets/images/IMG_2941.jpg";
 import content from "./about.config";
+import "./about.css";
 
 const About = () => {
   const [isHovered, setIsHovered] = useState(null);
@@ -10,13 +11,13 @@ const About = () => {
       <h1 className="lg:text-6xl md:text-3xl text-lg dark:text-gray-50 mb-8">
         About Me
       </h1>
-      <div className="relative">
-        <img
+      <div className="relative h-full portrait rounded-md">
+        {/* <img
           className="absolute left-0 top-0 z-10 w-full rounded-md "
           src={portrate}
           alt="Portrate"
-        />
-        <div className="absolute w-2/3 z-20 md:m-5 m-2 flex flex-col ">
+        /> */}
+        <div className=" w-2/3 z-20 md:m-5 m-2 flex flex-col ">
           {content.map((item, index) => (
             <div
               key={index}

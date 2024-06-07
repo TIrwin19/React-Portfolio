@@ -1,11 +1,10 @@
-// import Scrollby from "./Scrollby";
-
 export default function Resume() {
   return (
     <div className="relative flex flex-col mt-5 mx-5 md:mx-9 dark:text-gray-50">
       <h1 className="lg:text-6xl md:text-3xl text-lg mb-8">Resume</h1>
+      <Scrollby />
       <a
-        className=" w-fit px-2.5 py-0.5 rounded-full border border-gray-200 dark:border-zinc-700 drop-shadow hover:drop-shadow-md transition ease-in-out hover:scale-105 bg-gray-50 dark:bg-zinc-900"
+        className=" w-fit px-2.5 py-0.5 rounded-full border dark:text-zinc-900 text-gray-50 dark:border-gray-200 border-zinc-700 drop-shadow hover:drop-shadow-md transition ease-in-out hover:scale-105 dark:bg-gray-50 bg-zinc-900"
         href="https://docs.google.com/document/d/1cY2BbcMM_QOeqPk5H-gbMcYvcViMIWPXsLA-wZ5cQcs/edit?usp=sharing"
         download
       >
@@ -36,7 +35,6 @@ export default function Resume() {
             <li>- GraphQL</li>
           </ul>
         </div>
-        <div>{/* <Scrollby /> */}</div>
       </div>
     </div>
   );

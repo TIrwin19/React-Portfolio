@@ -10,7 +10,7 @@ export default function Darkmode() {
   };
 
   return (
-    <div className="absolute z-30 md:top-7 md:right-6 bottom-4 right-2 items-center pr-2 ">
+    <div className="absolute z-30 md:top-4 md:right-6 bottom-4 right-2 items-center pr-2 ">
       <button
         onClick={() => darkModeHandler()}
         type="button"

@@ -56,6 +56,10 @@
         object-position: top left;
       }
 
+      .img-center {
+        object-position: center;
+      }
+
       &--back {
         transform: rotatex(0.5turn);
       }

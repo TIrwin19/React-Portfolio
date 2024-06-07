@@ -1,13 +1,23 @@
 import readingNook from "../../assets/images/Screenshot 2024-05-03 104822.png";
 import jate from "../../assets/images/jate.png";
 import techBlog from "../../assets/images/tech_blog_5.png";
-import geoFactor from "../../assets/images/geoFactor.png";
+import battleBrain from "../../assets/images/battle_brain.png";
 import octocatBlk from "../../assets/images/github-mark.png";
 import octocatWht from "../../assets/images/github-mark-white.png";
 import empTracker from "../../assets/images/employee_tracker.png";
 import socialNetwork from "../../assets/images/social_network.png";
 
 const projects = [
+  {
+    name: "Battle Brain",
+    description: "Test your knowledge in this PvP style trivia game",
+    img: battleBrain,
+    class: "img-center",
+    link: "https://nameless-inlet-80123-f3bf2fedf73b.herokuapp.com/singleplayer",
+    backColor: "bg-gradient-to-br from-cyan-900 via-cyan-600 to-cyan-300",
+    repo: "https://github.com/WAbreu738/BATTLE_BRAIN",
+    octocat: octocatWht,
+  },
   {
     name: "Reading Nook",
     description: "The random reading companion",
@@ -37,16 +47,6 @@ const projects = [
     backColor: "bg-gradient-to-br from-gray-900 via-gray-800 to-gray-600 ",
     repo: "https://github.com/TIrwin19/MVC_Tech_Blog",
     octocat: octocatWht,
-  },
-  {
-    name: "Holiday Geo-Factor",
-    description: "Know when to go!",
-    img: geoFactor,
-    class: "",
-    link: "https://tirwin19.github.io/Holiday_GeoFactor/",
-    backColor: "bg-gradient-to-br from-blue-900 via-blue-500 to-indigo-500",
-    repo: "https://github.com/TIrwin19/Holiday_GeoFactor",
-    octocat: octocatBlk,
   },
   {
     name: "SQL Employee Tracker",

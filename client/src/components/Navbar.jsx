@@ -14,7 +14,7 @@ export default function Navbar() {
 
   return (
     <div className="sm:px-6 lg:px-3">
-      <div className="relative flex h-16 my-3 items-center justify-between">
+      <div className="relative flex h-10 my-3 items-center justify-between">
         <div className="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start">
           <div className="sm:ml-6 sm:block">
             <div className="flex md:space-x-4 space-x-0">
