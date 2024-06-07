@@ -12,7 +12,7 @@ import tailwindIcon from "../../assets/logos/tailwindcss.svg";
 import viteIcon from "../../assets/logos/Vitejs-logo.svg";
 import graphql from "../../assets/logos/GraphQL Logo (Rhodamine).png";
 
-export default function carousel() {
+export default function Scrollby() {
   return (
     <div className="icon mb-8 bg-slate-50 dark:bg-zinc-900">
       <div className="icon-slide flex justify-between">

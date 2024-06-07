@@ -1,3 +1,5 @@
+import Scrollby from "./Scrollby";
+
 export default function Resume() {
   return (
     <div className="relative flex flex-col mt-5 mx-5 md:mx-9 dark:text-gray-50">
