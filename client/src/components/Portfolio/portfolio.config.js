@@ -26,7 +26,7 @@ const projects = [
     link: "https://guarded-river-34918-8aebb7f6bceb.herokuapp.com/",
     backColor: "bg-gradient-to-br from-cyan-900 via-sky-500 to-cyan-100",
     repo: "https://github.com/TIrwin19/Reading_Nook",
-    octocat: octocatBlk,
+    octocat: octocatWht,
   },
   {
     name: "J.A.T.E",

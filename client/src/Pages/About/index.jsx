@@ -1,17 +1,21 @@
 import { useState } from "react";
 // import portrate from "../../assets/images/IMG_2941.jpg";
 import content from "./about.config";
+// import { Element } from "react-scroll";
 import "./about.css";
 
 const About = () => {
   const [isHovered, setIsHovered] = useState(null);
 
   return (
-    <div className="flex flex-col mt-5 mx-5 md:mx-9">
+    <div
+      id="about"
+      className="flex flex-col mt-10 mx-auto max-w-7xl 2xl:px-0 px-6"
+    >
       <h1 className="lg:text-6xl md:text-3xl text-lg dark:text-gray-50 mb-8">
         About Me
       </h1>
-      <div className="relative h-full portrait rounded-md">
+      <div className="relative h-screen portrait rounded-md">
         {/* <img
           className="absolute left-0 top-0 z-10 w-full rounded-md "
           src={portrate}
@@ -22,7 +26,7 @@ const About = () => {
             <div
               key={index}
               className="rounded-md p-3 backdrop-blur-xl bg-white/60 w-fit mb-3 shadow-md hover:shadow-lg"
-              onMouseEnter={() => setIsHovered(item.h2Hover)}
+              onClick={() => setIsHovered(item.h2Hover)}
               onMouseLeave={() => setIsHovered(null)}
             >
               <h2 className="lg:text-3xl md:text-xl text-base">{item.title}</h2>

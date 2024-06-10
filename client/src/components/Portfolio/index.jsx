@@ -4,7 +4,10 @@ import projects from "./portfolio.config";
 
 const Portfolio = () => {
   return (
-    <div className=" flex flex-col mt-5 mx-5 md:mx-9">
+    <div
+      id="portfolio"
+      className=" flex flex-col mt-10 max-w-7xl mx-auto px-6 2xl:px-0"
+    >
       <h1 className="lg:text-6xl md:text-3xl text-lg dark:text-gray-50 mb-8">
         My latest Work
       </h1>
@@ -20,8 +23,10 @@ const Portfolio = () => {
             <div
               className={`${item.backColor} relative card__face card__face--back md:p-5 p-2 border border-gray-300 dark:border-gray-700 shadow-xl rounded-lg`}
             >
-              <h1 className=" md:text-5xl text-xl md:mb-3 mb-1">{item.name}</h1>
-              <p className="md:text-xl text-base">{item.description}</p>
+              <h1 className=" lg:text-5xl md:text-3xl text-xl md:mb-3 mb-1">
+                {item.name}
+              </h1>
+              <p className="md:text-xl text-sm">{item.description}</p>
               <div className="absolute md:left-5 md:bottom-5 left-2 bottom-2 flex items-center">
                 <a
                   className=" mr-4 shadow-md border transition duration-300 hover:scale-110 ease-in-out border-gray-400 bg-gray-50 py-1 px-2 bg-opacity-85 rounded-full text-gray-800 md:text-lg text-sm"

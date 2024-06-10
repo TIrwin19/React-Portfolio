@@ -1,6 +1,6 @@
 //Credit: Naoya, https://codepen.io/nxworld/pen/OVMzaP, modified for my use
 .hero {
-  height: 89vh;
+  height: 100vh;
   background: linear-gradient(
         45deg,
         rgba(215, 215, 215, 0.2),
@@ -11,8 +11,8 @@
       )
       0 0 / 1000% no-repeat,
     url(../../assets/images/night_mountain.jpg) center center / cover no-repeat;
-  -webkit-animation: gradientAnimation 20s ease infinite;
-  animation: gradientAnimation 20s ease infinite;
+  -webkit-animation: gradientAnimation 15s ease infinite;
+  animation: gradientAnimation 15s ease infinite;
 
   @media (max-width: 768px) {
     height: 82vh;
@@ -40,6 +40,7 @@
     background-position: 0% 30%, 0 0;
   }
 }
+
 .title-margin {
   position: absolute;
   top: 50%;
