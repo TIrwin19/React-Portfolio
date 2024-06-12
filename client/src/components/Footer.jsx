@@ -27,8 +27,8 @@ const Footer = () => {
   }, []);
 
   return (
-    <div className="flex flex-col items-center my-3">
-      <div className="flex">
+    <div className="flex flex-col items-center mt-5 py-3">
+      <div className="flex mb-1">
         <a className="mx-2" href="https://github.com/TIrwin19">
           {!darkMode ? (
             <img className=" w-6 h-6" src={octocatBlack} alt="octocat" />
@@ -47,7 +47,7 @@ const Footer = () => {
           />
         </a>
       </div>
-      <p className="dark:text-gray-50 mt-1">&copy; T. Irwin 2024</p>
+      <p className="dark:text-gray-50 text-xs">&copy; T. Irwin 2024</p>
     </div>
   );
 };

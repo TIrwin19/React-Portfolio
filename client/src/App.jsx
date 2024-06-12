@@ -1,4 +1,4 @@
-import { Route, Routes } from "react-router-dom";
+// import { Route, Routes } from "react-router-dom";
 // import { useState } from "react";
 
 import Navbar from "./components/Navbar";
@@ -7,16 +7,27 @@ import About from "./Pages/About";
 import Contact from "./Pages/Contact";
 import Footer from "./components/Footer";
 import Portfolio from "./components/Portfolio";
+import Scrollby from "./components/Scrollby";
 import Resume from "./Pages/Resume";
 import Darkmode from "./components/Darkmode";
 
 function App() {
   return (
-    <main className="flex flex-col max-w-7xl mx-auto relative overflow-auto">
-      <Darkmode />
+    <main className="flex flex-col relative">
+      {/* <Darkmode /> */}
+      <div className="">
+        <Landing />
+      </div>
       <Navbar />
+      <div>
+        <About />
+        <Portfolio />
+        <Resume />
+        <Scrollby />
+        <Contact />
+      </div>
 
-      <div className="grow">
+      {/* <div className="grow">
         <Routes>
           <Route path="/" element={<Landing />} />
           <Route path="/about" element={<About />} />
@@ -24,7 +35,7 @@ function App() {
           <Route path="/portfolio" element={<Portfolio />} />
           <Route path="/resume" element={<Resume />} />
         </Routes>
-      </div>
+      </div> */}
 
       <Footer />
     </main>

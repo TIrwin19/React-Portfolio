@@ -1,6 +1,9 @@
 const Contact = () => {
   return (
-    <div className="flex flex-col items-center mt-5 mx-5 md:mx-9 dark:text-gray-50">
+    <div
+      id="contact"
+      className="flex flex-col items-center max-w-7xl mx-auto dark:text-gray-50"
+    >
       <h1 className="lg:text-6xl md:text-3xl text-lg mb-8">
         Send Me A Message
       </h1>
