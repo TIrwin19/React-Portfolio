@@ -31,6 +31,10 @@ Once the page loads you will see a landing page. You can navigate thrue the site
 - Alphardex: https://codepen.io/alphardex/pen/ExaZgxp
 - Naoya: https://codepen.io/nxworld/pen/OVMzaP
 
+## Deployment
+
+[My Portfolio](https://t-irwin.netlify.app/)
+
 ## License
 
 #### MIT
@@ -42,10 +46,6 @@ You can also check out the LICENSE in the repo.
 ## How to Contribute
 
 Check out the [Contributor Covenant](https://www.contributor-covenant.org/version/2/1/code_of_conduct/code_of_conduct.md)
-
-## Tests
-
-N/A
 
 ## Questions
 
